@@ -1,34 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## 📃 About the project
+Move.it is an application made by developers to developers. Applying Pomodoro allied to Gamification techniques, the move.it reminds programmers to take the time to exercise and maintain correct ergonomics, improving focus and productivity during coding. At each time interval an exercise is proposed, and the more challenges are completed the more points the player gains and passes the level.
 
-## Getting Started
+It was an estudy developed during Next Level Week 4 provided by Rocketseat. This application also was my first real project working with Server Side Rendering and Next.JS.
 
-First, run the development server:
+## 🛠 Built with
+
+- [Typescript](https://www.typescriptlang.org/)
+- [ReactJS](https://reactjs.org/)
+- [Next.js](https://nextjs.org/)
+- [Node.js](https://nodejs.org/en/)
+
+## 🚀 How to use
+
+The app is just the web front-end made with React, there is no back-end other than Next.JS.
+
+### Requirements
+
+- Git
+- NodeJS
+- Expo
+
+
+### 🖥 Web setup
+
+First clone the repository if you haven't done it yet:
 
 ```bash
-npm run dev
-# or
-yarn dev
+
+# Clone the repo
+git clone https://github.com/VitorValandro/moveit
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Go to project's root diretory and run the commands below:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+# Install dependencies
+yarn
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```
 
-## Learn More
+After install all packages run the commands below:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Starts web app
+yarn start
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+# Access http://localhost:3000 to use the app
 
-## Deploy on Vercel
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+###### The designs and arts weren't made by me.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+###### Vitor Matheus Valandro da Rosa. February 2021.
